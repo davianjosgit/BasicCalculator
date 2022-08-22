@@ -14,65 +14,62 @@
 
     <h1>Calculadora das 4 operações</h1>
 
-    <div>
-        <h1 id="some">0</h1>
-    </div>
+
+    <form> 
 
 
-    <form>
-        <label for=""></label>
-        <input type="number" id="numero1" placeholder="Digite um numero...">
-        <label for="">+</label>
-        <input type="number" id="numero2" placeholder="Digite outro numero...">
-        <input type="button" value="calcular" onclick="clique()">
-        <label for=""></label>
-        <input type="number" id="numero3" placeholder="Digite um numero...">
-        <label for="">
-            <h1 id="ope">-</h1>
-        </label>
-        <input type="number" id="numero4" placeholder="Digite outro numero...">
-        <input type="button" value="calcular" onclick="clique2()">
+        <p id="textLocal"></p>
+        
 
-        <label for=""></label>
-        <input type="number" id="numero5" placeholder="Digite um numero...">
-        <label for="">
-            <h1 id="ope">X</h1>
-        </label>
-        <input type="number" id="numero6" placeholder="Digite outro numero...">
-        <input type="button" value="calcular" onclick="clique3()">
+    <div id="kayBoard">
 
-        <label for=""></label>
-        <input type="number" id="numero7" placeholder="Digite um numero...">
-        <label for="">
+        <input type="button" value="=" class="btn" onclick="calcular()">
 
-            <h1 id="ope"> &#247;</h1>
-        </label>
-        <input type="number" id="numero8" placeholder="Digite outro numero...">
-        <input type="button" value="calcular" onclick="clique4()">
+        <input type="button" value="0" class="btn" onclick="aqui('0')">
+    
+        <input type="button" value="1" class="btn" onclick="aqui('1')">
+    
+        <input type="button" value="2" class="btn" onclick="aqui('2')">
+    
+        <input type="button" value="3" class="btn" onclick="aqui('3')">
+    
+        <input type="button" value=">" class="btn" onclick="back('>')">
+    
+        <input type="button" value="4" class="btn" onclick="aqui('4')">
+    
+        <input type="button" value="5" class="btn" onclick="aqui('5')">
 
-    </form>
+        <input type="button" value="6" class="btn" onclick="aqui('6')">
 
-    <!-- <form> 
+        <input type="button" value="7" class="btn" onclick="aqui('7')">
+    
+        <input type="button" value="." class="btn" onclick="aqui('.')">
+    
+        <input type="button" value="+" class="btn" onclick="aqui('+')">
 
-    <input type="button" value="1" id="btn" onclick="aqui('1')">
+        <input type="button" value="*" class="btn" onclick="aqui('*')">
 
-    <input type="button" value="2" id="btn" onclick="aqui('2')">
+        <input type="button" value="8" class="btn" onclick="aqui('8')">
 
-    <input type="button" value="+" id="btn" onclick="aqui('+')">
+        <input type="button" value="9" class="btn" onclick="aqui('9')">
+    
+        <input type="button" value="C" id="btn_e" onclick="clean()">
+    
+        <input type="button" value="/" class="btn" onclick="aqui('/')">
+    
+        <input type="button" value="-" class="btn" onclick="aqui('-')">
 
-    <input type="button" value="Clear" id="btn" onclick="clean()">
+        <input type="button" value="00" id="btn_f" onclick="aqui('00')">
 
-    <input type="button" value=">" id=">" onclick="back()">
+        
+    </div>  
 
-    <input type="button" value="=" id="equale" onclick="calcular()">
-
-
-    <textarea name=""  cols="30" rows="10" id="textLocal"></textarea>
+    
 
     
 
 
-</form> -->
+</form>
 
 
 
